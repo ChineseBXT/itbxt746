@@ -8,5 +8,7 @@ public class Main {
 		System.out.println("不行Hello!");
 		System.out.println("最后一次Hello!");
 		System.out.println("别捣乱!");
+		System.out.println("哦吼,完蛋!");
+
     }
 }
