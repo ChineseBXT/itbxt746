@@ -17,4 +17,8 @@ public class BrandServiceImpl implements BrandService {
         return tbBrandMapper.selectByExample(null);
     }
 
+    @Override
+    public TbBrand findById(Long id) {
+        return tbBrandMapper.selectByPrimaryKey(id);
+    }
 }

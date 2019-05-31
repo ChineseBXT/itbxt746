@@ -23,4 +23,9 @@ public class BrandController {
     public List<TbBrand> findAll() {
         return brandService.findAll();
     }
+
+    @RequestMapping("/findById")
+    public TbBrand findById(Long id) {
+        return brandService.findById(id);
+    }
 }
