@@ -14,4 +14,11 @@ public interface BrandService {
     List<TbBrand> findAll();
 
     TbBrand findById(Long id);
+
+    void save(TbBrand tbBrand);
+
+    void delete(Long id);
+
+    void update(TbBrand tbBrand);
+
 }
